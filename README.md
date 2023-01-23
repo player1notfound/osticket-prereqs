@@ -67,7 +67,7 @@ Restart Internet Information Services before proceeding with the program.
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Open two folders. One of which click on Downloads => OsTicket-v1.15.8 while on the other folder, go to This PC = Windows (C:) = inetpub = wwwroot. Drag the upload folder from OsTicket-v1.15.8 to wwwroot folder containing two iisstart files. Rename the upload folder to osTicket. Open the osTicket folder and rename ost-sampleconfig.php to ostconfig.php. Next, right click the file and proceed to Properties = Security = Advanced = Disable inheritance = Remove all inherited permissions from this object = add = Select a principal. After that, type everyone, press Check Names, and hit OK. Ensure that everything under Basic permissions are checked before clicking OK. Remember to Apply then press OK again. 
+Open two folders. One of which click on Downloads => OsTicket-v1.15.8 while on the other folder, go to This PC = Windows (C:) = inetpub = wwwroot. Drag the upload folder from OsTicket-v1.15.8 to wwwroot folder containing two iisstart files. Rename the upload folder to osTicket. Open the osTicket folder and rename ost-sampleconfig.php to ostconfig.php. Next, right click the file and proceed to Properties → Security → Advanced → Disable inheritance → Remove all inherited permissions from this object → add → Select a principal. After that, type everyone, press Check Names, and hit OK. Ensure that everything under Basic permissions are checked before clicking OK. Remember to Apply then press OK again. 
 </p>
 <br />
 
@@ -90,7 +90,7 @@ Set up osTicket in the browser. This includes generating a dinstinctive helpdesk
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-For cleanup, head to This PC = Windows (C:) = inetpub = wwwroot = osTicket. Delete the setup folder. Set the Permissions of ost-config.php to Ready only by right opening the properties of ost-config.php = Security = Advanced = Edit. Uncheck Full control, Modify, and Write. 
+For cleanup, head to This PC → Windows (C:) → inetpub → wwwroot → osTicket. Delete the setup folder. Set the Permissions of ost-config.php to Ready only by right opening the properties of ost-config.php → Security → Advanced → Edit. Uncheck "Full control", "Modify", and "Write." 
 </p>
 <br />
 </p>
