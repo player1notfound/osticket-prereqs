@@ -24,7 +24,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <h2>Installation Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/d2ATtxU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DH2pED1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Right click the Start menu located at the bottom left corner of the pc and click "run." Type "control" in the blank box for access to the control panel. Under the control panel, click "Programs. Under "Programs and Feature," click on "Turn Windows Feature ON and Off" and turn on and expand Internet Information Services, World Wide Web services, Application Development Features, and check CGI and press OK. Install all the installation files necessary to proceed to the next step which is the creation of an OsTicket
@@ -79,7 +79,7 @@ Under Internet Information Services (IIS) Manager, expand Sites then Default Web
 Set up osTicket in the browser. This includes generating a dinstinctive helpdesk name and username. Launch HeidiSQL_12.3.0.6589_Setup. Create a new connection to the database by clicking New. The username is root and the password is the password created with MySQL. After entering the information, click Open. Right click Unnamed, expand Create new, and click Database. Enter osTicket for the name and click OK. This will be the code for MySQL Database in osTicket website.
   
 <p>
-<img src="https://i.imgur.com/JHPTEYH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/iTGZEs3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 For cleanup, head to This PC → Windows (C:) → inetpub → wwwroot → osTicket. Delete the setup folder. Set the Permissions of ost-config.php to Ready only by right opening the properties of ost-config.php → Security → Advanced → Edit. Uncheck "Full control", "Modify", and "Write." 
