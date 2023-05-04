@@ -72,7 +72,7 @@ Under Internet Information Services (IIS) Manager, expand Sites then Default Web
 <br />
 
 <p>
-<img src="infot/pipic1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="./infot/pipic1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <img src="infot/pic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
