@@ -72,8 +72,8 @@ Under Internet Information Services (IIS) Manager, expand Sites then Default Web
 <br />
 
 <p>
-<img src="pic1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="pic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="/infot/pipic1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="/infot/pic.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Set up osTicket in the browser. This includes generating a dinstinctive helpdesk name and username. Launch HeidiSQL_12.3.0.6589_Setup. Create a new connection to the database by clicking New. The username is root and the password is the password created with MySQL. After entering the information, click Open. Right click Unnamed, expand Create new, and click Database. Enter osTicket for the name and click OK. This will be the code for MySQL Database in osTicket website.
